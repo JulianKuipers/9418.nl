@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+
+<title>Home</title>
+
+<!-- LEUK DAT JE INTERRESSE HEBT IN ONZE CODE! KIJK EN LEER. -->
+
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115758673-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-115758673-1', {'anonymize_ip':true});
+</script>
+
+<!--meta-->
+<meta charset="utf-8">
+<meta name="description" content="Welkom bij 9418.nl!">
+<meta name="keywords" content="Julian, Kuipers, Martijn, Schokker, website, 9418, 9418.nl, websites, makkelijk, simpel, goedkoop, professioneel">
+<meta name="author" content="Julian Kuipers">
+<meta name="description" content="9418.nl is gespecialisseerd in het maken van basic, low-cost websites op maat. Bij 9418.nl hebben wij een passie voor het maken van basic websites tegen een lage prijs, omdat wij vinden dat iedereen online moet kunnen zijn zonder daarvoor de benodigde kennis te hebben.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--[if lt IE 9]-->
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--[endif]-->
+
+<!-- Bootstrap -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- Form Validator-->
+<script language="JavaScript" src="js/gen_validatorv31.js" type="text/javascript"></script>
+
+<!-- MC JS -->
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"d9c69b7b10ec7f425332002fc","lid":"b7a7955813"}) })</script>
+
+<!-- Scrolling -->
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#mijnPagina'], a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+      // Store hash
+      var hash = this.hash;
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+      //Tooltip
+  $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- Our CSS -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<!-- Favicon -->
+<link rel="icon" href="pics/favicon.png" type="image/gif" sizes="64x64">
+
+<!-- MC CSS -->
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+
+<style>
+</style>
+
+</head>
+
+<body id="mijnPagina" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<!-- Navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a href="https://www.9418.nl"><img class="logo-header" src="https://www.9418.nl/pics/logo-small.png" style="align-self: left; padding: 5px;"></a>
+      <a href=""><img class="logo-header" src="https://www.9418.nl/pics/fblg.png" style="align-self: left; padding: 5px;"></a>
+      <a href=""><img class="logo-header" src="https://www.9418.nl/pics/lilg.png" style="align-self: left; padding: 5px;"></a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#diensten">Diensten</a></li>
+        <li><a href="#prijzen">Prijzen</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#over">Over 9418.nl</a></li>
+        <li><a href="#contact">Contact</a></li>
+		    <li><a href="archief/blogs-p1.html">Blogs</a></li>
+        <li><a href="archief/archief-p1.html">Archief</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--HEADER-->
+<div class="jumbotron text-center">
+  <h1><img src="pics/header.png" width="100%" height="100%"></h1>
+  <br>
+  <h5>Op de hoogte blijven?</h5>
+  <div id="mc_embed_signup">
+      <form action="https://9418.us17.list-manage.com/subscribe/post?u=d9c69b7b10ec7f425332002fc&amp;id=b7a7955813" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll">
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d9c69b7b10ec7f425332002fc_b7a7955813" tabindex="-1" value=""></div>
+        <div class="clear"><input type="submit" value="Abonneer je op de nieuwsbrief!" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+        </div>
+      </form>
+    </div>
+</div>
+
+<!-- DIENSTEN -->
+<div id="diensten" class="container-fluid text-center">
+  <h2>Diensten</h2>
+  <h4>Wat kun je van ons verwachten</h4>
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-3">
+      <span class="glyphicon glyphicon-search logo-small"></span>
+      <h4>Online vindbaarheid</h4>
+      <p>Wij zorgen ervoor dat jij online komt</p>
+    </div>
+    <div class="col-sm-3">
+      <span class="glyphicon glyphicon-thumbs-up logo-small"></span>
+      <h4>Social Media</h4>
+      <p>Wij regelen de koppeling met al jouw Social Media kanalen</p>
+    </div>
+    <div class="col-sm-3">
+      <span class="glyphicon"><img src="https://www.9418.nl/pics/responsive.png" height="39.5%" width="39.5%"/></span>
+      <h4>Responsive website</h4>
+      <p>Jouw website werkt uitstekend op mobiel, tablet en pc</p>
+    </div>
+    <div class="col-sm-3">
+      <span class="glyphicon glyphicon-list-alt logo-small"></span>
+      <h4>Verschillende modules</h4>
+      <p>Wij kunnen meerdere <a href="https://www.9418.nl/producten/modules.html" class="ghost-link">modules</a> op jouw site plaatsen formulieren, fotocollages, prijslijsten etc.</p>
+    </div>
+  </div>
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-3">
+      <span class="glyphicon glyphicon-user logo-small"></span>
+      <h4>Een persoonlijke aanpak</h4>
+      <p>Weet met wie je praat, wij leren onze klanten graag beter kennen </p>
+    </div>
+    <div class="col-sm-3">
+      <span class="glyphicon glyphicon-edit logo-small"></span>
+      <h4>Vullen van pagina’s</h4>
+      <p>Wij kunnen alle pagina’s voor jou vullen met tekst, afbeeldingen, video’s etc.</p>
+    </div>
+    <div class="col-sm-3">
+      <span class="glyphicon glyphicon-wrench logo-small"></span>
+      <h4>Service en ondersteuning</h4>
+      <p>Wij staan altijd voor je klaar met raad en daad</p>
+    </div>
+    <div class="col-sm-3">
+      <span class="glyphicon glyphicon-stats logo-small"></span>
+      <h4>Google Analytics</h4>
+      <p>Wij koppelen jouw website aan Google Analytics zodat je inzicht krijgt in bezoekersgegevens</p>
+    </div>
+  </div>
+</div>
+
+<!-- PRIJZEN -->
+<div id="prijzen" class="container-fluid">
+  <div class="text-center">
+    <h2>Prijzen</h2>
+    <h4>Kies de best passende optie voor u</h4>
+    <h6><strong>Alle prijzen op de website zijn exclusief BTW</strong></h6>
+  </div>
+  <div class="row slideanim">
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+          <img src="pics/prijssite.png" height="100%" width="100%">
+        <div class="panel-body">
+          <br>
+          <p><strong>One-page-website</strong></p>
+          <p><strong>Je levert eigen teksten (content) aan</strong></p>
+          <p><strong>Optie om <a href="https://www.9418.nl/producten/modules.html" class="ghost-link">losse modules</a> te kopen</strong></p>
+          <p><strong>Hulp met bijzaken zoals hosting</a></strong></p>
+        </div>
+        <div class="panel-footer">
+          <form method="post" action="producten/standaard.html"><button class="btn btn-lg" data-toggle="tooltip" title="Klik hier om een nieuwe pagina met meer informatie over dit product te openen.">Meer info</button>
+          <button class="btn btn-lg" formaction="producten/kies-standaard.html" data-toggle="tooltip" title="Klik hier om contact met ons op te nemen omtrent dit product.">Kies</button></form>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center panel-aanbevolen">
+       <img src="pics/prijsaanbevolen.png" height="100%" width="100%">
+        <div class="panel-body">
+          <br>
+          <p><strong>One-page-website</strong></p>
+          <p><strong>Content voor op de website</strong></p>
+          <p><strong>Optie om <a href="https://www.9418.nl/producten/modules.html" class="ghost-link">losse modules</a> te kopen</strong></p>
+          <p><strong>Hulp met bijzaken zoals hosting</a></strong></p>
+        </div>
+        <div class="panel-footer">
+          <form method="post" action="producten/aanbevolen.html"><button class="btn btn-lg btn-aanbevolen" data-toggle="tooltip" title="Klik hier om een nieuwe pagina met meer informatie over dit product te openen.">Meer info</button>
+          <button class="btn btn-lg btn-aanbevolen" formaction="producten/kies-aanbevolen.html" data-toggle="tooltip" title="Klik hier om contact met ons op te nemen omtrent dit product.">Kies</button></form>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <img src="pics/prijsonderhoud.png" height="100%" width="100%">
+        <div class="panel-body">
+          <br>
+          <p><strong>Aanpassen content op de site</strong></p>
+          <p><strong>Aanpassen lay-out</strong></p>
+          <p><strong>Hulp bij o.a. SEO, MailChimp en hosting</strong></p>
+          <p><strong>Hulp bij online marketing</strong></p>
+        </div>
+        <div class="panel-footer">
+          <form method="post" action="producten/onderhoud.html"><button class="btn btn-lg" data-toggle="tooltip" title="Klik hier om een nieuwe pagina met meer informatie over dit product te openen.">Meer info</button></form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PORTFOLIO -->
+<div id="portfolio" class="container-fluid text-center bg-grey">
+  <h2>Portfolio</h2><br>
+  <h4 data-toggle="tooltip" title="Klik op de voorbeelden om naar de volledige website te gaan.">Enkele voorbeelden</h4>
+  <div class="row text-center slideanim">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="afbeelding.jpg" alt="www.kuipersadministratie.nl" width="400" height="300">
+        <p><strong>Kuipers Administratie, Wijster</strong></p>
+        <p>link</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="afbeelding.jpg" alt="www.maatschapbouwmeester.nl" width="400" height="300">
+        <p><strong>Bouwmeester, Wijster</strong></p>
+        <p>link</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="pics/SCSJK.png" alt="www.juliankuipers.com" width="95%" height="95%">
+        <p><strong>Julian Kuipers, Ondernemer, <a href="https://www.juliankuipers.com/" target="_blank">juliankuipers.com</a></strong></p>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<!-- REVIEWS -->
+<div id="review" class="container-fluid text-center">
+  <h2 style="text-align: center">Reviews van onze klanten</h2>
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+
+    <!-- NAVIGATIE -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- REVIEWS -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <h4>""<br><span>Eddy Kuipers, Eigenaar, Kuipers Administratie</span></h4>
+      </div>
+      <div class="item">
+        <h4>""<br><span>Robin Bouwmeester, Mede-eigenaar, Maatschap Bouwmeester</span></h4>
+      </div>
+      <div class="item">
+        <h4>"Snelle service en een super resultaat!"<br><span>Julian Kuipers, Ondernemer,<a href="https://www.juliankuipers.com/" target="_blank">juliankuipers.com</a></span></h4>
+      </div>
+    </div>
+
+    <!-- LINKS EN RECHTS -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Vorige</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Volgende</span>
+    </a>
+  </div>
+</div>
+
+<!-- OVER ONS -->
+<div id="over" class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <h2>Over ons</h2><br>
+      <h4>Tegenwoordig is bijna iedereen wel online bezig. Of je nou actief bent op social media, je boodschappen online besteld of alleen de mail gebruikt. We zijn allemaal wel op de één of andere manier online bezig. Maar lang niet iedereen is online vindbaar en dat wil je niet in deze tijd waar in Nederland maar liefst 97,1% van de bevolking (vanaf 12 jaar) toegang heeft tot het internet. Vanuit dit vertrekpunt is 9418.nl opgericht.</h4><br>
+      <p>Wij hebben als doel om iedereen die online wil te helpen om deze ambitie te realiseren. Of je nou jong of oud bent, veel of weinig kennis hebt van het online wereldje, veel of weinig budget te besteden hebt, voor iedereen hebben wij een passende oplossing. Door een persoonlijke en transparante aanpak werken wij als een team samen. Een wisselwerking tussen jou als klant en wij als uitvoerders. Hierdoor hopen wij het beste resultaat te halen met onze klanten.
+      Ons streven is om elke klant te verassen met een unieke website die naadloos aansluit bij de wensen en behoeften die zij stellen. Dit doen wij door goed naar onze klanten te luisteren en door een goede verstandshouding op te bouwen. Wij houden van persoonlijke communicatie en zijn flexibel in onze werktijden en locaties. Zo kunnen wij ook bij jou op locatie komen werken, als jij geen tijd kwijt wilt zijn met reizen.</p><br>
+      <h4>Even wat cijfers en feiten op een rijtje:</h4>
+        <ul>
+          <li><strong>76,3%</strong> van de Nederlanders vanaf 12 jaar hebben in 2017 online aankopen voor privé gedaan</li>
+          <li>Binnen de leeftijdsgroep van 25-45 jaar is dit percentage zelfs <strong>93,7%</strong> over 2017</li>
+          <li><strong>97,1%</strong> van de Nederlandse bevolking vanaf 12 jaar heeft toegang tot het internet</li>
+          <li>Jongeren besteden gemiddeld <strong>7 uur en 42 minuten</strong> aan online kanalen waarvan <strong>4 uur en 30 minuten</strong> op mobiele apparaten</li>
+          <li>Via de smartphone worden veel <strong>zoekopdrachten</strong> gedaan, maar de meeste <strong>aankopen</strong> worden nog gedaan via een desktop/laptop</li>
+        </ul><br>
+      <p>Best indrukwekkende cijfers toch? Dat vinden wij in elk geval wel. En deze cijfers zullen de komende jaren alleen maar toenemen. Er zullen nieuwe trends en ontwikkelingen bijkomen wat betreft de online wereld in de komende jaren. Om niet achter de feiten, of de cijfers, aan te lopen bieden wij jou de helpende hand.</p><br>
+      <p>Geïnteresseerd geraakt naar onze diensten en mogelijkheden? Neem dan snel contact met ons op en wie weten kunnen wij jou helpen online te groeien!</p>
+      <br>
+      <a class="btn btn-default btn-lg" href="#contact">Neem contact met ons op</a>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+</div>
+
+<!-- MISSIE -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-globe logo slideanim"></span>
+    </div>
+    <div class="col-sm-7">
+      <h2>Onze waarden</h2><br>
+      <h4><strong>Missie:</strong> Onze missie is om iedere ondernemer online vindbaar te maken. Als een consument op internet naar jouw bedrijf zoekt en vervolgens alleen een link van de telefoongids, de concurrenten of zelfs helemaal niets over jouw bedrijf vindt, heb je zonder dat je het weet al een afstand gecreëerd tussen deze potentiele klant en jouw bedrijf. Dit vinden wij van 9418.nl erg jammer, omdat dit probleem zo eenvoudig, goedkoop en snel is op te lossen. Samen is een sleutelwoord in onze missie. Want samen, wij van 9418.nl en jij, maken wij jouw bedrijf online vindbaar.</h4><br>
+      <p><strong>Visie:</strong>In de toekomst willen wij websites nog sneller kunnen aanleveren met behulp van voorgeprogrammeerde elementen. Zo kunnen wij onze klanten nog sneller van dienst zijn want wij geloven in de kracht van het online werken en de snelheid waarmee in deze wereld projecten tot stand kunnen komen.</p><br>
+      <p><strong>Waarden:</strong> Onze waarden zijn, net zoals onze beloften, simpel: online vindbaarheid, snelheid van de aanlevering van websites en de juiste prijs/kwaliteit verhouding. Maar wij hechten ook veel waarde aan persoonlijk contact met onze klanten en goede relatie. Samen bereik je meer dan alleen!</p>
+      <br><a class="btn btn-default btn-lg" href="https://www.9418.nl/verhaal.html">Lees ons verhaal</a>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">Contact</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Zit je met vragen, wil je meer over ons weten of wil je gebruik maken van onze diensten? Neem dan contact met ons op via onderstaande gegevens. Wij zijn op werkdagen telefonisch bereikbaar tot 20:00 uur. Mailen of een WhatsApp sturen kan altijd! Wij streven er naar om zo snel mogelijk op jouw bericht te antwoorden.</p>
+      <p>Onze kantoorruimte bevind zich in Wijster. Langskomen is uitsluitend mogelijk op afspraak. Natuurlijk kunnen wij ook altijd bij jou langskomen. Het is maar net wat jij wil!</p>
+      <p>Kantoorpand #K4-Wijster, begane grond kantoorruimte K0.1 – Direct links na binnenkomst.
+      </p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> <a href="https://www.google.nl/maps/place/Kampsweg+4,+9418+PE+Wijster/@52.8182466,6.5119387,15.26z/data=!4m13!1m7!3m6!1s0x47c819b0cd82ff53:0xdc209a462e57596c!2sKampsweg+4,+9418+PE+Wijster!3b1!8m2!3d52.8155708!4d6.5151225!3m4!1s0x47c819b0cd82ff53:0xdc209a462e57596c!8m2!3d52.8155708!4d6.5151225" target="_blank">Kampsweg 4, 9418 PE, Wijster</a></p>
+      <p><span class="glyphicon glyphicon-phone"></span><a href="tel:0031629495504">0629495504</a> of <a href="tel:0031653478990">0653478990</a></p>
+      <p><span class="glyphicon glyphicon-envelope"></span><a href="mailto:info@9418.nl">info@9418.nl</a></p>
+    </div>
+    <form method="post" name="contactformulier" action="php/contact.php">
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Naam" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="E-mailadres" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="message" placeholder=" Vraag of opmerking" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit" name="submit" value="submit">Verstuur</button>
+        </div>
+      </div>
+    </div>
+  </form>
+  <script language="JavaScript">
+    /* Code for validating the form
+    Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+    for details*/
+    var frmvalidator  = new Validator("contactformulier");
+    frmvalidator.addValidation("name","req","Vul alsjeblieft je naam in, dan weten we wie je bent!");
+    frmvalidator.addValidation("email","req","Vul alsjeblieft je e-mailadres in, anders kunnen we geen contact met je opnemen!");
+    frmvalidator.addValidation("email","email","Dit mailadres bestaat niet. Vul alsjeblieft een geldig e-mailadres in, anders kunnen we geen contact met je opnemen!");
+  </script>
+  </div>
+</div>
+
+<!-- Google Maps API -->
+<div id="googleMap" style="height:400px;width:100%;"></div>
+
+<!-- Maps JS -->
+<script src="js/gmaps.js" onload="initMap()"></script>
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXkqwdyfIBFCAXUf-a1yT1R1MEqAvstF8&callback=initMap">
+</script>
+
+<!-- End of page a.k.a. Footer -->
+<footer class="container-fluid text-center bg-mint">
+  <a href="#mijnPagina" title="Omhoog">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p class="madeby">Deze website is gemaakt door <a href="https://www.9418.nl" title="Bezoek 9418.nl">www.9418.nl</a></p><span></span>
+  <p class="madeby">Copyright &copy; 9418.nl, 2018 - <a href="mailto:info@9418.nl">info@9418.nl</a></p>
+  <p class="madeby"><a href="https://www.9418.nl/archief/blogs-p1.html">Blogs</a> | <a href="https://www.9418.nl/archief/archief-p1.html">Archief</a> | <a href="https://www.9418.nl/#contact">Contact</a> | <a href="https://www.9418.nl/privacy.html">Privacy</a></p>
+</footer>
+
+</body>
+</html>
