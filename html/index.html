@@ -41,7 +41,7 @@
 <!-- Scrolling -->
 <script>
 $(document).ready(function(){
-  // Add smooth scrolling to all links in navbar + footer link
+// Add smooth scrolling to all links in navbar + footer link
   $(".navbar a, footer a[href='#mijnPagina'], a").on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
@@ -57,12 +57,16 @@ $(document).ready(function(){
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
-    } // End if
+    } 
+// End if
   });
-      //Tooltip
+
+//Tooltip
   $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();
 });
+
+//SlideAnimation
   $(window).scroll(function() {
     $(".slideanim").each(function(){
       var pos = $(this).offset().top;
@@ -276,32 +280,33 @@ $(document).ready(function(){
 </div><br>
 
 <!-- REVIEWS -->
-<!--<div id="review" class="container-fluid text-center">
+<div id="review" class="container-fluid text-center">
   <h2 style="text-align: center">Reviews van onze klanten</h2>
-  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">-->
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
 
     <!-- NAVIGATIE -->
-    <!--<ol class="carousel-indicators">
+    <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>-->
+    </ol>
 
     <!-- REVIEWS -->
-    <!--<div class="carousel-inner" role="listbox">
+    <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <h4>""<br><span>Eddy Kuipers, Eigenaar, <a href="scswb.nl" target="_blank">SCSWB.nl</a></span></h4>
+        <h4>"Enthousiaste jongens die met de klant meedenken en een zeer goede prijs prestatie verhouding."<br><span>Eddy Kuipers, Eigenaar, <a href="scswb.nl" target="_blank">SCSWB.nl</a></span></h4>
       </div>
       <div class="item">
-        <h4>""<br><span>Ria Booijink, Eigenaar, <a href="https://www.bresyozwitserseherder.nl" target="_blank">bresyozwitserseherder.nl</a></span></h4>
+        <h4>"'De heren van 9418.nl hebben een hele mooie website voor ons gebouwd. Ook nog eens erg snel, omdat de website met spoed gebouwd moest worden. Wat een service hebben deze mannen. Ze hebben met ons meegedacht en een website gebouwd die volledig voldoet aan onze verwachtingen. Ik kan iedereen 9418.nl dan ook ten zeerste aanbevelen."<br><span>Ria Booijink, Eigenaar, <a href="https://www.bresyozwitserseherder.nl" target="_blank">bresyozwitserseherder.nl</a></span></h4>
       </div>
+      <!--
       <div class="item">
         <h4>"Snelle service en een super resultaat!"<br><span>Julian Kuipers, Ondernemer, <a href="https://www.juliankuipers.com/" target="_blank">juliankuipers.com</a></span></h4>
-      </div>
-    </div>-->
+      </div><-->
+    </div>
 
     <!-- LINKS EN RECHTS -->
-    <!--<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
       <span class="sr-only">Vorige</span>
     </a>
@@ -310,7 +315,7 @@ $(document).ready(function(){
       <span class="sr-only">Volgende</span>
     </a>
   </div>
-</div>-->
+</div>
 
 <!-- OVER ONS -->
 <div id="over" class="container-fluid">
@@ -407,7 +412,7 @@ $(document).ready(function(){
   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXkqwdyfIBFCAXUf-a1yT1R1MEqAvstF8&callback=initMap">
 </script>
 
-<!-- End of page a.k.a. Footer -->
+<!--Footer -->
 <footer class="container-fluid text-center bg-mint">
   <a href="#mijnPagina" title="Omhoog">
     <span class="glyphicon glyphicon-chevron-up"></span>
