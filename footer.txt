@@ -1,8 +1,0 @@
-<footer class="container-fluid text-center bg-mint">
-  <a href="#mijnPagina" title="Omhoog">
-    <span class="glyphicon glyphicon-chevron-up"></span>
-  </a>
-  <p class="madeby">Deze website is gemaakt door <a href="https://www.9418.nl" title="Bezoek 9418.nl">www.9418.nl</a></p><span></span>
-  <p class="madeby">Copyright &copy; 9418.nl, 2018 - <a href="mailto:info@9418.nl">info@9418.nl</a></p>
-  <p class="madeby"><a href="https://www.9418.nl/archief/blogs-p1.html">Blogs</a> | <a href="https://www.9418.nl/archief/archief-p1.html">Archief</a> | <a href="https://www.9418.nl/#contact">Contact</a> | <a href="https://www.9418.nl/privacy.html">Privacy</a></p>
-</footer>

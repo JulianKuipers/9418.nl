@@ -1,3 +1,10 @@
 RewriteEngine On
 RewriteCond %{HTTPS} !=on
 RewriteRule ^.*$ https://www.9418.nl [R=301,L]
+
+#redirect to -.html
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^ %{REQUEST_URI}.html [NC,L]
