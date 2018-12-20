@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+ <!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115758673-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115758673-1', {'anonymize_ip':true});
+</script>
+<!-- END --> 
+<!--meta-->
+	<meta charset="utf-8">
+	<meta name="description" content="Over ons">
+	<meta name="keywords" content="Julian, Kuipers, Martijn, Schokker, website, 9418, 9418.nl, websites, makkelijk, simpel, goedkoop, professioneel">
+	<meta name="author" content="Julian Kuipers">
+  <meta name="description" content="9418.nl is gespecialisseerd in het maken van basic, low-cost websites op maat. Bij 9418.nl hebben wij een passie voor het maken van basic websites tegen een lage prijs, omdat wij vinden dat iedereen online moet kunnen zijn zonder daarvoor de benodigde kennis te hebben.">
+<!-- Enable if wanted <meta http-equiv="refresh" content="60"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--[if lt IE 9]-->
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--[endif]-->
+<!--Other scripts-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!--END-->
+
+<!--css-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+<!--end css-->
+	<title>400 Bad Request</title>
+<!--style--> 
+<style>
+</style>
+<!--style-->
+</head>
+<body>
+<body id="mijnPagina" data-spy="scroll" data-target=".navbar" data-offset="60" style="background-color: #99cccc;">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--HEADER-->
+<div class="jumbotron text-center">
+  <br>
+  <br>
+  <br>
+  <img src="../pics/logo.png" width="30%" height="30%"> 
+  <p>Deze actie is niet mogelijk.</p>
+  <a href="https://www.9418.nl/" class="llab">Terug naar 9418.nl</a>
+</div>
+</body>
+</html>
