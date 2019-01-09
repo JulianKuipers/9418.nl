@@ -3,4 +3,5 @@ Disallow: https://www.9418.nl/bedankt.html
 Disallow: https://www.9418.nl/privacy.html
 Disallow: https://www.9418.nl/producten/bedankt2.html
 Disallow: /*.js$
+Disallow: /*.php$
 Sitemap: https://www.9418.nl/sitemap_index.xml

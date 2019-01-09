@@ -10,11 +10,19 @@ body {
   color: grey;
 }
 
+
 /*titels*/
 h1 {
   font-size: 28px;
   text-transform: uppercase;
   color: #303030;
+  font-weight: 600;
+}
+
+.h1-wijster {
+  font-size: 28px;
+  text-transform: uppercase;
+  color: white;
   font-weight: 600;
 }
 
@@ -129,6 +137,11 @@ h6 {
 
 .bg-mint {
   background-color: rgba(153, 204, 204, 0.5);
+}
+
+.bg-wijster {
+  background-image: url();
+  background-color: #99cccc;
 }
 
 .logo-small {
