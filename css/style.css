@@ -10,10 +10,14 @@ body {
   color: grey;
 }
 
+/*objecten*/
+
+
+
 
 /*titels*/
 h1 {
-  font-size: 28px;
+  font-size: 24px;
   text-transform: uppercase;
   color: #303030;
   font-weight: 600;
@@ -43,14 +47,18 @@ h4 {
 }
   
 h5 {
-	font-style: bold;
-	font-size: 19px;
+	font-weight: 600;
+  font-size: 19px;
+  color: black;
+  text-transform: uppercase;
 }
 
 h6 {
   font-style: bold;
   font-size: 16px;
+  line-height: 1.8;
 }
+
 
 /*links*/
 .socialmedia {
@@ -74,6 +82,11 @@ h6 {
 .ghost-link:hover {
   text-decoration: none !important;
   color: #ff9933 !important;
+}
+
+.isdisabled {
+  text-decoration: none;
+  color: grey !important;
 }
 
 /*archief*/
@@ -142,6 +155,17 @@ h6 {
 .bg-wijster {
   background-image: url();
   background-color: #99cccc;
+}
+
+/*headers*/
+
+.header-blog{
+  background-color: #99cccc;
+  background-image: url(https://www.9418.nl/pics/header_blog.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
 }
 
 .logo-small {
@@ -406,10 +430,13 @@ h6 {
    background-color:#f6f6f6;
    border-color: #f6f6f6;
    border-width: 1px;
-   border-radius: 5px;
-   padding: 10px;
   }
-
+  .tussentitel {
+    font-style: bold;
+  }
+  .tussentitel {
+    font-style: bold;
+  }
   .madeby {
     font-size: 9px;
   }
@@ -432,10 +459,6 @@ h6 {
 
   .intro {
     padding-top: 20px;
-  }
-
-  .tussentitel {
-    font-style: bold;
   }
 
   footer .glyphicon {
